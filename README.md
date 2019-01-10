@@ -18,8 +18,6 @@ Compiling failed when using crossbuild-essentials-* provided in the repo, but su
 
 2. Copy the build_git.sh file into the /root directory in chroot environment.
 
-3. Chroot into the chroot environment, and run the following command one by one:
+3. Chroot into the chroot environment, and run the following command:
 
-> cd /root
-> chmod 755 build_git.sh
-> ./build_git.sh
+> cd /root && chmod 755 build_git.sh && ./build_git.sh
