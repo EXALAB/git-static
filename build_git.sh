@@ -5,7 +5,7 @@ echo "This may take some time, please sit back and take a coffee."
 echo ""
 
 mkdir -p output
-git clone git://github.com/git/git
+git clone --depth 1 --shallow-submodules git://github.com/git/git
 cd git
 
 export NO_OPENSSL=1
