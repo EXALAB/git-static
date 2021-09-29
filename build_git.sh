@@ -14,6 +14,6 @@ export CFLAGS="${CFLAGS} -static"
 
 make configure
 ./configure prefix=/root/output
-make
+make -j $(nproc)
 make install
 make clean
